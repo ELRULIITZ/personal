@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi página personal - Raúl</title>
+    <!--ESTILO CSS-->
+    <style>
+        body {
+            background-color: #f1f1f1;
+            font-family: Arial, sans-serif;
+            margin:0;
+            padding:0;
+            line-height:1.6;
+        }
+        h1,h2,h3,h4{
+            color: #333;
+        }
+        /*====ENCABEZADO====*/
+        header{
+            background-color: #e00401;
+            color:white;
+            text-align:center;
+            padding: 20px;
+        }
+        header h1{
+            color: white;
+        }
+        nav ul{
+            padding: 0;
+        }
+        nav ul li{
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover{
+            color: yellow;
+        }
+        /*====CONTENIDO====*/
+        main{
+            padding: 20px;
+        }
+        section,article,aside{
+            background-color: white;
+            padding: 15px;
+            margin: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        /*===ASIDE===*/
+        aside{
+            background-color: #e0f7fa;
+            border-left: 4px double #ffffff;
+        }
+        footer{
+            background-color: #333;
+            text-align: center;
+            color: white;
+            padding: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        table, th, td {
+            border: 1px solid #555;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <!--ENCABEZADO-->
+    <header>
+        <h1>Mi página personal - Raúl</h1>
+        <nav>
+            <ul>
+                <li><a href="#bio">Biografía</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#tabla">Datos</a></li>
+                <li><a href="#video">Video</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--CONTENIDO PRINCIPAL-->
+    <main>
+        <!-- BIOGRAFÍA -->
+        <section id="bio">
+            <h2>Mi Biografía</h2>
+            <p>Soy <b>Raúl</b>, un chico <u>disciplinado</u> y con muchas ganas de superarme.  
+            Actualmente estudio en la <mark>universidad UTL</mark>, donde cada día me esfuerzo para aprender y crecer como persona.  
+            Creo firmemente que <i>la constancia y la disciplina</i> son las claves para alcanzar cualquier meta.  
+            Mi filosofía es simple: <b><q>Los sueños no funcionan a menos que tú trabajes por ellos</q></b>.  
+            Por eso sigo adelante, aprendiendo, mejorando y buscando dejar una huella positiva en todo lo que hago.</p>
+            <img src="img/foto1.jpg" alt="Foto de Raúl" width="250">
+        </section>
+
+        <!-- LISTA -->
+        <article id="hobbies">
+            <h3>Mis hobbies</h3>
+            <p>Aquí algunos de mis pasatiempos favoritos:</p>
+            <ul>
+                <li>Escuchar música</li>
+                <li>Programar páginas web</li>
+                <li>Jugar videojuegos</li>
+                <li>Andar en bicicleta</li>
+                <li>Leer libros motivacionales</li>
+            </ul>
+        </article>
+
+        <!-- TABLA -->
+        <section id="tabla">
+            <h3>Datos Personales</h3>
+            <table>
+                <tr>
+                    <th>Dato</th>
+                    <th>Descripción</th>
+                </tr>
+                <tr>
+                    <td>Nombre</td>
+                    <td>Raúl</td>
+                </tr>
+                <tr>
+                    <td>Edad</td>
+                    <td>19 años</td>
+                </tr>
+                <tr>
+                    <td>Carrera</td>
+                    <td>Negocios </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><a href="mailto:raul@gmail.com">raul@gmail.com</a></td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- VIDEO EMBEBIDO -->
+        <aside id="video">
+            <h4>Un video que me motiva</h4>
+            <iframe width="400" height="250" src="https://www.youtube.com/watch?v=q8Ot1tbWAeQ&t=86s&pp=ygUKbW90aXZhY2lvbg%3D%3D" 
+            title="YouTube video motivacional" frameborder="0" allowfullscreen></iframe>
+        </aside>
+    </main>
+
+    <!--PIE DE PAGINA-->
+    <footer>
+        <p>&copy; 2025 Mi Web Personal | Creado por Raúl alias RULI DONI</p>
+    </footer>
+</body>
+</html>
